@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>365 Quiz Competition</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <!-- custom css not required to work with plugin -->
+    <link
+      rel="stylesheet"
+      href="css/quiz-competition.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+    <link rel="manifest" href="ico/site.webmanifest">
+  </head>
+  <body>
+  
+    <!-- Form Starts -->
+    <!-- data-title - it will be used for whatsapp message title -->
+    <form
+      class="lw-whatsapp-form"
+      novalidate
+      data-title="*آر مارکیٹ 365 کی معرفت 365 کوئز کمپیٹیشن کا انعقاد*"
+    >
+      <h2>آر مارکیٹ 365 کی معرفت 365 کوئز کمپیٹیشن کا انعقاد</h2>
+      
+      <!-- Name field starts -->
+      <label for="name"
+        >آپ کا نام
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="میرا نام"
+          required
+        />
+      </label>
+      <!-- mobile number field start -->
+      <label for="mobile"
+        >آپ کا موبائل نمبر
+        <input
+          id="mobile"
+          type="number"
+          name="mobile"
+          placeholder="میرا موبائل نمبر"
+          required
+        />
+      </label>
+      <!-- comment field -->
+      <label for="comments"
+        >آپ کا پتہ
+        <textarea
+          id="comments"
+          name="comments"
+          placeholder="میرا پتہ"
+        ></textarea>
+      </label>
+
+
+      <hr />
+
+      <h3>
+
+        
+      
+      </h3>
+
+      <hr />
+
+
+      <!-- Interested in Checkboxes starts -->
+      <!-- data-label will be used in the whatsapp message option label -->
+      <span class="lw-checkbox-holder" data-label="Interested in">
+        <h3>جوابات</h3>
+        <!-- project option -->
+       <label for="option_1">
+        <input
+        type="checkbox"
+        name="صحیح جواب"
+        id="option_1"
+        value="1"
+        required
+      />
+
+      <b>
+      
+        
+      
+      </b>
+
+       </label>
+        <!-- product option -->
+       <label for="option_2">
+        <input
+        type="checkbox"
+        name="صحیح جواب"
+        id="option_2"
+        value="2"
+      />
+      <b>
+      
+        
+      
+      </b>
+       </label>
+       <!-- product option -->
+       <label for="option_3">
+        <input
+        type="checkbox"
+        name="صحیح جواب"
+        id="option_3"
+        value="3"
+      />
+      <b>
+      
+        
+      
+      </b>
+       </label>
+       <!-- product option -->
+       <label for="option_4">
+        <input
+        type="checkbox"
+        name="صحیح جواب"
+        id="option_4"
+        value="4"
+      />
+      <b>
+      
+        
+      
+      </b>
+       </label>
+        <!-- error holder -->
+        <label class="error" for="checkbox_options"></label>
+      </span>
+      
+      <!-- Submit button -->
+      <button type="submit" class="lw-whatsapp-contact-btn">
+        <img
+          src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEwMDAgMTAwMDsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDEwMDAgMTAwMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojMjVEMzY2O30KCS5zdDF7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT48dGl0bGUvPjxnPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01MDAsMTAwMEw1MDAsMTAwMEMyMjMuOSwxMDAwLDAsNzc2LjEsMCw1MDB2MEMwLDIyMy45LDIyMy45LDAsNTAwLDBoMGMyNzYuMSwwLDUwMCwyMjMuOSw1MDAsNTAwdjAgICBDMTAwMCw3NzYuMSw3NzYuMSwxMDAwLDUwMCwxMDAweiIvPjxnPjxnIGlkPSJXQV9Mb2dvIj48Zz48cGF0aCBjbGFzcz0ic3QxIiBkPSJNNzMzLjksMjY3LjJjLTYyLTYyLjEtMTQ0LjYtOTYuMy0yMzIuNS05Ni40Yy0xODEuMSwwLTMyOC42LDE0Ny40LTMyOC42LDMyOC42ICAgICAgYzAsNTcuOSwxNS4xLDExNC41LDQzLjksMTY0LjNMMTcwLjEsODM0bDE3NC4yLTQ1LjdjNDgsMjYuMiwxMDIsNDAsMTU3LDQwaDAuMWMwLDAsMCwwLDAsMGMxODEuMSwwLDMyOC41LTE0Ny40LDMyOC42LTMyOC42ICAgICAgQzgzMC4xLDQxMS45LDc5NiwzMjkuMyw3MzMuOSwyNjcuMnogTTUwMS41LDc3Mi44aC0wLjFjLTQ5LDAtOTcuMS0xMy4yLTEzOS0zOC4xbC0xMC01LjlMMjQ5LDc1NS45bDI3LjYtMTAwLjhsLTYuNS0xMC4zICAgICAgYy0yNy4zLTQzLjUtNDEuOC05My43LTQxLjgtMTQ1LjRjMC4xLTE1MC42LDEyMi42LTI3My4xLDI3My4zLTI3My4xYzczLDAsMTQxLjUsMjguNSwxOTMuMSw4MC4xYzUxLjYsNTEuNiw4MCwxMjAuMyw3OS45LDE5My4yICAgICAgQzc3NC42LDY1MC4zLDY1Miw3NzIuOCw1MDEuNSw3NzIuOHogTTY1MS4zLDU2OC4yYy04LjItNC4xLTQ4LjYtMjQtNTYuMS0yNi43Yy03LjUtMi43LTEzLTQuMS0xOC41LDQuMSAgICAgIGMtNS41LDguMi0yMS4yLDI2LjctMjYsMzIuMmMtNC44LDUuNS05LjYsNi4yLTE3LjgsMi4xYy04LjItNC4xLTM0LjctMTIuOC02Ni00MC44Yy0yNC40LTIxLjgtNDAuOS00OC43LTQ1LjctNTYuOSAgICAgIGMtNC44LTguMi0wLjUtMTIuNywzLjYtMTYuOGMzLjctMy43LDguMi05LjYsMTIuMy0xNC40YzQuMS00LjgsNS41LTguMiw4LjItMTMuN2MyLjctNS41LDEuNC0xMC4zLTAuNy0xNC40ICAgICAgYy0yLjEtNC4xLTE4LjUtNDQuNS0yNS4zLTYxYy02LjctMTYtMTMuNC0xMy44LTE4LjUtMTQuMWMtNC44LTAuMi0xMC4zLTAuMy0xNS43LTAuM2MtNS41LDAtMTQuNCwyLjEtMjEuOSwxMC4zICAgICAgYy03LjUsOC4yLTI4LjcsMjguMS0yOC43LDY4LjVjMCw0MC40LDI5LjQsNzkuNSwzMy41LDg0LjljNC4xLDUuNSw1Ny45LDg4LjQsMTQwLjMsMTI0YzE5LjYsOC41LDM0LjksMTMuNSw0Ni44LDE3LjMgICAgICBjMTkuNyw2LjMsMzcuNiw1LjQsNTEuNywzLjNjMTUuOC0yLjQsNDguNi0xOS45LDU1LjQtMzljNi44LTE5LjIsNi44LTM1LjYsNC44LTM5QzY2NSw1NzQuNCw2NTkuNSw1NzIuNCw2NTEuMyw1NjguMnoiLz48L2c+PC9nPjwvZz48L2c+PC9zdmc+"
+          alt="Submit via WhatsApp"
+          srcset=""
+        />
+        Submit
+      </button>
+    </form>
+    <!-- jQuery - Required for the plugin -->
+    <script
+      type="text/javascript"
+      src="js/jquery-3.4.1.min.js"
+    ></script>
+    <!-- jQueryValidation - Required for plugin validation -->
+    <script
+      type="text/javascript"
+      src="js/jquery.validate.min.js"
+    ></script>
+    <!-- plugin  -->
+    <script src="js/quiz-competition.js"></script>
+    <script>
+      (function ($) {
+        "use strict";
+        $(document).ready(function ($) {
+        // you need initialize plugin for your form by their jQuery identifier like . for class, # for id etc
+        // in below example form class has been used to initialize plugin for the form
+          $(".lw-whatsapp-form").whatsAppAnyForm({
+            // Your Mobile Number with 0 and country code
+            whatsAppNumber: "918626004225",
+            // if you want to open whatsapp request as new window
+            openInNewWindow: true,
+            // message once the user redirected to WhatsApp - Form will be replaced with this HTML text
+            submissionMessage: "You have been redirected to the WhatsApp to submit the message. <br/> We will get back to you soon!! <br/> <br/> Thank you"
+          });
+        });
+      })(jQuery);
+    </script>
+  </body>
+
+</html>
